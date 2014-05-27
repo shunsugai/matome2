@@ -3,8 +3,7 @@ require 'spec_helper'
 describe 'Blogs' do
   describe 'GET /blogs.json' do
     before(:each) do
-      @category = FactoryGirl.create(:category)
-      @blog     = FactoryGirl.create(:blog, category: @category)
+      @blog = FactoryGirl.create(:blog)
       get '/blogs.json', format: :json
     end
 
@@ -26,9 +25,8 @@ describe 'Blogs' do
 
   describe 'GET /categories/:category_id/blogs.json' do
     before(:each) do
-      @category = FactoryGirl.create(:category)
-      @blog     = FactoryGirl.create(:blog, category: @category)
-      get "/categories/#{@category.id}/blogs.json", format: :json
+      @blog = FactoryGirl.create(:blog)
+      get "/categories/#{@blog.category_id}/blogs.json", format: :json
     end
 
     it 'response 200 OK' do
