@@ -9,7 +9,9 @@ describe 'matome' do
 
   describe 'matome:remove' do
     before do
-      FactoryGirl.create(:article)
+      FactoryGirl.create(:article_posted_at_a_week_ago)
+      FactoryGirl.create(:article_posted_at_6_days_ago)
+      FactoryGirl.create(:article_posted_at_a_day_ago)
     end
 
     let :run_rake_task do
@@ -21,7 +23,7 @@ describe 'matome' do
 
     it 'remove entries 1 week ago' do
       run_rake_task
-      expect(Article.all.size).to eq (0)
+      expect(Article.all.size).to eq 2
     end
   end
 end
