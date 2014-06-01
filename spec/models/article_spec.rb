@@ -27,4 +27,10 @@ describe Article do
     expect(article.errors['title']).to be_present
   end
 
+  specify 'posted_at must be earlier than now' do
+    article.posted_at = 1.second.since
+    expect(article).not_to be_valid
+    expect(article.errors['posted_at']).to be_present    
+  end
+
 end
