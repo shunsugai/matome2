@@ -14,4 +14,10 @@ describe Category do
     category.name = ''
     expect(category).not_to be_valid
   end
+
+  specify 'name must be less than or equal to 20 characters' do
+    category.name = 'あ'*21
+    expect(category).not_to be_valid
+    expect(category.errors['name']).to be_present
+  end
 end
