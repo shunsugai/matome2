@@ -3,6 +3,6 @@ class Blog < ActiveRecord::Base
   has_many   :articles
 
   validates :name, presence: true, length: { maximum: 50 }
-  validates :url,  presence: true
-  validates :rss,  presence: true
+  validates :url,  presence: true, length: { maximum: 2000 }
+  validates :rss,  presence: true, length: { maximum: 2000 }
 end

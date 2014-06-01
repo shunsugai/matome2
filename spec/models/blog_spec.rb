@@ -23,4 +23,11 @@ describe Blog do
     expect(blog.errors['name']).to be_present
   end
 
+  %w(url rss).each do |attribute|
+    specify "#{attribute} must be less than or equal to 2000 characters" do
+      blog[attribute] = 'a'*2001
+      expect(blog).not_to be_valid
+      expect(blog.errors[attribute]).to be_present
+    end
+  end
 end
