@@ -8,6 +8,8 @@ describe Blog do
   end
 
   %w(name url rss).each do |attribute|
+    it { expect(blog).to respond_to(attribute.to_sym) }
+
     specify "#{attribute} must not be empty" do
       blog[attribute] = ''
       expect(blog).not_to be_valid
