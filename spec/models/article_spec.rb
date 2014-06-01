@@ -15,4 +15,10 @@ describe Article do
     end
   end
 
+  specify 'url must be less than or equal to 2000 characters' do
+    article.url = 'a'*2001
+    expect(article).not_to be_valid
+    expect(article.errors['url']).to be_present
+  end
+
 end
