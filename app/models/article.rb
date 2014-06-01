@@ -6,7 +6,8 @@ class Article < ActiveRecord::Base
   validates_uniqueness_of :url
   validates_presence_of   :url, :title, :posted_at
   validate                :article_is_not_promotion
-  validates :url,  length: { maximum: 2000 }
+  validates :url,   length: { maximum: 2000 }
+  validates :title, length: { maximum: 100 }
 
   #scopes
   scope :show,      where(:show => true)

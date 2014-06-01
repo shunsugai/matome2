@@ -21,4 +21,10 @@ describe Article do
     expect(article.errors['url']).to be_present
   end
 
+  specify 'title must be less than or equal to 100 characters' do
+    article.title = 'あ'*101
+    expect(article).not_to be_valid
+    expect(article.errors['title']).to be_present
+  end
+
 end
