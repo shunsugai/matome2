@@ -8,6 +8,7 @@ class Article < ActiveRecord::Base
   validate                :article_is_not_promotion, :posted_at_is_invalid
   validates :url,   length: { maximum: 2000 }
   validates :title, length: { maximum: 100 }
+  validates :url, url: true, allow_blank: true
 
   #scopes
   scope :show,      where(:show => true)
