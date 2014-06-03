@@ -30,4 +30,12 @@ describe Blog do
       expect(blog.errors[attribute]).to be_present
     end
   end
+
+  describe 'url format must be valid' do
+    specify 'do not allows other protocol' do
+      blog.url = 'ftp://example.com'
+      expect(blog).not_to be_valid
+      expect(blog.errors['url']).to be_present
+    end
+  end
 end
