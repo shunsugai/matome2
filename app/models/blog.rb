@@ -6,4 +6,5 @@ class Blog < ActiveRecord::Base
   validates :url,  presence: true, length: { maximum: 2000 }
   validates :rss,  presence: true, length: { maximum: 2000 }
   validates :url, url: true, allow_blank: true
+  validates :rss, url: true, allow_blank: true
 end
