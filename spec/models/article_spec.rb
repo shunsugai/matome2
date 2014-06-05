@@ -21,7 +21,7 @@ describe Article do
     expect(article.errors['url']).to be_present
   end
 
-  describe 'url format must be valid' do
+  describe 'url must be valid' do
     specify 'allows http' do
       article.url = 'http://example.com'
       expect(article).to be_valid
@@ -34,6 +34,12 @@ describe Article do
 
     specify 'do not allows other protcol' do
       article.url = 'ftp://example.com'
+      expect(article).not_to be_valid
+      expect(article.errors['url']).to be_present
+    end
+
+    specify 'url host must be same as Blog#url' do
+      article.url = 'http://invalidhost.com'
       expect(article).not_to be_valid
       expect(article.errors['url']).to be_present
     end
