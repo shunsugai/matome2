@@ -13,10 +13,10 @@ class Article < ActiveRecord::Base
   validates :url, url: true, allow_blank: true
 
   #scopes
-  scope :show,      where(:show => true)
-  scope :today,     where("time > ?", 1.days.ago)
-  scope :this_week, where("time > ?", 7.days.ago)
-  scope :time_desc, order("time DESC")
+  scope :show,      -> { where(:show => true) }
+  scope :today,     -> { where('posted_at > ?', 1.day.ago) }
+  scope :this_week, -> { where('posted_at > ?', 7.days.ago) }
+  scope :time_desc, -> { order('posted_at DESC') }
 
   private
   def article_is_not_promotion

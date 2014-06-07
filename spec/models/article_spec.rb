@@ -57,4 +57,11 @@ describe Article do
     expect(article.errors['posted_at']).to be_present    
   end
 
+  describe 'does not allows similar post' do
+    specify 'similar title must not be saved' do
+    end
+
+    specify 'compare with articles posted at past 24 hours' do
+    end
+  end
 end
