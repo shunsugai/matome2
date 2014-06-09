@@ -53,4 +53,5 @@ group :development, :test do
   gem 'childprocess', '0.3.6'
   gem 'spork', '0.9.2'
   gem 'factory_girl_rails', '4.4.1'
+  gem 'webmock', '1.18.0'
 end
