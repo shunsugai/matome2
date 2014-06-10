@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+>
+<channel rdf:about="http://blog.livedoor.jp/dqnplus/">
+<title>痛いニュース(ﾉ∀`)</title>
+<link>http://blog.livedoor.jp/dqnplus/</link>
+<description>２ちゃんねるで見つけた痛いニュースをピックアップしてお伝えします。
+</description>
+<dc:language>ja</dc:language>
+<admin:generatorAgent rdf:resource="http://blog.livedoor.com/?v=2.0" />
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com" />
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1799577.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1799556.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1799550.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1799549.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1799546.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://blog.livedoor.jp/dqnplus/archives/1799577.html">
+<title>問題行動の生徒、施設に“隔離”へ　レベル１～５に分類　大阪市教委</title>
+<link>http://blog.livedoor.jp/dqnplus/archives/1799577.html</link>
+<description>1 名前：Twilight Sparkle ★＠＼(^o^)／：2014/06/10(火) 17:42:04.65 ID:???0.net
+大阪市教委は１０日、橋下徹市長と教育行政について議論する協議会を開き、市立小中学校で悪質な問題行動を起こす子供を各学校から一定期間引き離し、経験豊富な教員らが対応する「個別指...</description>
+<dc:creator>dqnplus</dc:creator>
+<dc:date>2014-06-10T22:48:34+09:00</dc:date>
+<dc:subject>普通のニュース</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/dqnplus/archives/1799556.html">
+<title>【画像】 背中にラブライブのキャラの刺青…香港のアニメファンが凄すぎると話題に</title>
+<link>http://blog.livedoor.jp/dqnplus/archives/1799556.html</link>
+<description>1 名前： ハイキック(愛知県)＠＼(^o^)／：2014/06/10(火) 19:08:15.33 ID:ap2d4TQX0●.net
+ひろ＠小倉県民ラブライバー@qooalex83
+【香港ラブライバーがコワイよ】 昨日希ちゃん誕生日に、生涯希推しということでタトゥーを入れた猛者が出現www (完成度30%、色...</description>
+<dc:creator>dqnplus</dc:creator>
+<dc:date>2014-06-10T20:55:08+09:00</dc:date>
+<dc:subject>痛いニュース</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/dqnplus/archives/1799550.html">
+<title>小保方氏 「生き別れの息子を捜しに行きたい」</title>
+<link>http://blog.livedoor.jp/dqnplus/archives/1799550.html</link>
+<description>1 名前： 32文ロケット砲(dion軍)＠＼(^o^)／：2014/06/10(火) 11:42:03.74 ID:cVlsVOpH0.net
+小保方氏「生き別れの息子を捜しに行きたい」　検証実験参加に意欲
+ＳＴＡＰ細胞の論文問題で、理化学研究所の小保方晴子氏（３０）の代理人は１０日、ＳＴＡＰ細胞が作れるかど...</description>
+<dc:creator>dqnplus</dc:creator>
+<dc:date>2014-06-10T19:30:40+09:00</dc:date>
+<dc:subject>痛いニュース</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/dqnplus/archives/1799549.html">
+<title>死刑判決の木嶋佳苗被告が「ニコニコチャンネル」開始　月額８６４円の有料、支援者らが協力</title>
+<link>http://blog.livedoor.jp/dqnplus/archives/1799549.html</link>
+<description>1 名前： アイアンクロー(家)＠＼(^o^)／：2014/06/10(火) 06:27:32.31 ID:EMU2ulUA0.net
+
+交際男性３人を練炭自殺に見せかけ、殺害したとして１、２審で死刑判決を受けた木嶋佳苗被告（３８）＝最高裁に上告中＝が支援者らの協力を得て、動画配信サービス「ニコニコチャン...</description>
+<dc:creator>dqnplus</dc:creator>
+<dc:date>2014-06-10T18:58:07+09:00</dc:date>
+<dc:subject>痛いニュース</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/dqnplus/archives/1799546.html">
+<title>韓国人学生、米名門大で旭日旗ステンドグラス撤去要求 「韓国人だったら見ただけで吐き気を催す」</title>
+<link>http://blog.livedoor.jp/dqnplus/archives/1799546.html</link>
+<description>1 名前：影のたけし軍団ρ ★＠＼(^o^)／：2014/06/10(火) 16:42:21.60 ID:???0.net
+アジアから遠く離れた米国で「反日」の狼煙を上げ続ける韓国系ロビー団体。カリフォルニア州グレンデール市では「票」の力により慰安婦像が設置されてしまったことは本誌が報じてきた通り...</description>
+<dc:creator>dqnplus</dc:creator>
+<dc:date>2014-06-10T18:09:34+09:00</dc:date>
+<dc:subject>痛いニュース</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+</rdf:RDF>

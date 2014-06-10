@@ -21,4 +21,10 @@ FactoryGirl.define do
     blog
   end
 
+  factory :blog_for_insert_task, class: Blog do
+    name '痛いニュース(ﾉ∀`)'
+    url  'http://blog.livedoor.jp/dqnplus/'
+    rss  'http://blog.livedoor.jp/dqnplus/index.rdf'
+    category
+  end
 end

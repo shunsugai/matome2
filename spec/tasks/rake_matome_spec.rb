@@ -26,4 +26,22 @@ describe 'matome' do
       expect(Article.all.size).to eq 2
     end
   end
+
+  describe 'matome:insert' do
+    before do
+      blog = FactoryGirl.create(:blog_for_insert_task)
+      request_url = blog.rss
+      stub_request(:get, request_url).to_return(:status => 200, :body => fixture('index.rdf'))
+    end
+
+    let :run_rake_task do
+      Rake::Task['matome:insert'].reenable
+      Rake.application.invoke_task 'matome:insert'
+    end
+
+    specify 'Article is inserted' do
+      run_rake_task
+      expect(Article.all.size).to eq 5
+    end
+  end
 end
