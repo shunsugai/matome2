@@ -1,0 +1,91 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+>
+<channel rdf:about="http://blog.livedoor.jp/goldennews/">
+<title>ゴールデンタイムズ</title>
+<link>http://blog.livedoor.jp/goldennews/</link>
+<description>ゴールデンタイムズはレスをまとめたりするブログ
+</description>
+<dc:language>ja</dc:language>
+<admin:generatorAgent rdf:resource="http://blog.livedoor.com/?v=2.0" />
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com" />
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://blog.livedoor.jp/goldennews/archives/51850949.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/goldennews/archives/51850936.html" />
+  <rdf:li rdf:resource="http://blog.livedoor.jp/goldennews/archives/51850926.html" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://blog.livedoor.jp/goldennews/archives/51850949.html">
+<title>クールポコ「なぁ～にぃ～！？ 」</title>
+<link>http://blog.livedoor.jp/goldennews/archives/51850949.html</link>
+<description>
+
+
+
+1 ：以下、＼(^o^)／でVIPがお送りします ：2014/06/11(水) 21:13:55.61 ID:LeWLKtVz0.net
+
+
+ やっちまったなぁ！ 
+
+
+
+2 ：以下、＼(^o^)／でVIPがお送りします ：2014/06/11(水) 21:14:12.01 ID:j0RG7zQC0.net
+
+
+ 漢は黙って 
+
+
+</description>
+<dc:creator>golden02</dc:creator>
+<dc:date>2014-06-12T00:18:25+09:00</dc:date>
+<dc:subject>VIP・ネタ</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/goldennews/archives/51850936.html">
+<title>郷土料理TOP100が決定　優勝は当然あの県</title>
+<link>http://blog.livedoor.jp/goldennews/archives/51850936.html</link>
+<description>
+1 ： クロスヒールホールド(新疆ウイグル自治区)＠＼(^o^)／ ：2014/06/11(水) 17:38:42.47 ID:o3qq+lof0.net
+
+
+ 投票総数 ： 72,566票　（投票人数 ： 12,132人） 
+ 順位 都道府県名 料理名 得票数 
+ 1 山　形 いも煮 3746 
+ 
+ 2 鹿児島 鶏飯 3232 
+ 
+ 3 秋　田 きりたんぽ...</description>
+<dc:creator>golden02</dc:creator>
+<dc:date>2014-06-11T21:08:38+09:00</dc:date>
+<dc:subject>料理・食品・店</dc:subject>
+<content:encoded>
+</content:encoded>
+</item>
+<item rdf:about="http://blog.livedoor.jp/goldennews/archives/51850926.html">
+<title>日清カップヌードルの新CM「サムライ in ブラジル」が話題に……ブラジルで甲冑付けた侍が超絶足技、ブラジル人も驚く</title>
+<link>http://blog.livedoor.jp/goldennews/archives/51850926.html</link>
+<description>
+1 ：れいおφ ★＠＼(^o^)／ ：2014/06/10(火) 04:45:10.18 ID:???0.net
+
+
+ 日清食品が6月8日に公開したカップヌードルの新CM「サムライ in ブラジル」が話題になっています。 
+  
+ 「人は、甲冑をつけて、どこまで自在にボールを蹴ることができるのか？」という思いつきか...</description>
+<dc:creator>golden02</dc:creator>
+<dc:date>2014-06-11T19:34:52+09:00</dc:date>
+<dc:subject>報道・TV・芸能</dc:subject>
+<content:encoded></content:encoded>
+</item>
+</rdf:RDF>

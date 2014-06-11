@@ -32,6 +32,10 @@ describe 'matome' do
       blog = FactoryGirl.create(:blog_for_insert_task)
       request_url = blog.rss
       stub_request(:get, request_url).to_return(:status => 200, :body => fixture('index.rdf'))
+
+      blog2 = FactoryGirl.create(:blog_for_insert_task_2)
+      request_url = blog2.rss
+      stub_request(:get, request_url).to_return(:status => 200, :body => fixture('goldennews_index.rdf'))
     end
 
     let :run_rake_task do
@@ -41,7 +45,7 @@ describe 'matome' do
 
     specify 'Article is inserted' do
       run_rake_task
-      expect(Article.all.size).to eq 5
+      expect(Article.all.size).to eq 8
     end
   end
 end

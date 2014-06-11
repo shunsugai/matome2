@@ -27,4 +27,11 @@ FactoryGirl.define do
     rss  'http://blog.livedoor.jp/dqnplus/index.rdf'
     category
   end
+
+  factory :blog_for_insert_task_2, class: Blog do
+    name 'ゴールデンタイムズ'
+    url  'http://blog.livedoor.jp/goldennews/'
+    rss  'http://blog.livedoor.jp/goldennews/index.rdf'
+    category
+  end
 end
