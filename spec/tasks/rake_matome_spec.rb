@@ -47,5 +47,11 @@ describe 'matome' do
       run_rake_task
       expect(Article.all.size).to eq 8
     end
+
+    specify 'Article must be unique' do
+      run_rake_task
+      run_rake_task
+      expect(Article.all.size).to eq 8
+    end
   end
 end
