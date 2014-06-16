@@ -283,6 +283,7 @@ DEPENDENCIES
   guard-spork (= 1.2.0)
   jbuilder (= 2.0.7)
   jquery-rails
+  kaminari (= 0.15.1)
   mysql2 (= 0.3.14)
   rails (= 4.1.0)
   rspec-rails (= 2.14.1)

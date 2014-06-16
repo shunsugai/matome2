@@ -55,3 +55,5 @@ group :development, :test do
   gem 'factory_girl_rails', '4.4.1'
   gem 'webmock', '1.18.0'
 end
+
+gem 'kaminari', '0.15.1'
