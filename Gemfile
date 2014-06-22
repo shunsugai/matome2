@@ -57,3 +57,5 @@ group :development, :test do
 end
 
 gem 'kaminari', '0.15.1'
+gem 'haml-rails', '0.5.3'
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'

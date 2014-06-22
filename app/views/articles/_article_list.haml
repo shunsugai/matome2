@@ -1,0 +1,15 @@
+- @articles.each do |article|
+  .box.well
+    / - if article.image
+    /   %span.thumb
+    /     %div
+    /       %div
+    /         %a{:href => article.link , :target => "_blank"}
+    /           =image_tag article.image, :class => "image_resize"
+    .heading
+      %h4
+        =link_to article.title, article.url, :target => "_blank"
+      %p.author
+        =article.title
+      %p.date
+        =article.posted_at.strftime("%Y/%m/%d %H:%M:%S")
