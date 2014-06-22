@@ -10,6 +10,6 @@
       %h4
         =link_to article.title, article.url, :target => "_blank"
       %p.author
-        =article.title
+        =article.blog.name unless article.blog.nil?
       %p.date
         =article.posted_at.strftime("%Y/%m/%d %H:%M:%S")
