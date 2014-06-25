@@ -13,17 +13,6 @@
     %link(href="images/apple-touch-icon.png" rel="apple-touch-icon")
     %link(href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72")
     %link(href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114")
-    :javascript
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-32079640-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
@@ -42,19 +31,3 @@
     
       %footer
         %p &copy; 2nterest.net 2012
-    /
-      Javascripts
-      \==================================================
-    / Placed at the end of the document so the pages load faster
-    = javascript_include_tag "application"
-    :javascript
-      $(function(){
-        var $container = $('#dynamic-grid-area');
-        $container.imagesLoaded(function(){
-          $container.masonry({
-            itemSelector : '.box',
-            columnWidth : 230,
-            isAnimated : true
-          });
-        });
-      });
